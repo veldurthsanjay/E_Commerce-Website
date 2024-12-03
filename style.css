@@ -1,0 +1,259 @@
+body{
+    margin: 0;
+    background-color: rgb(19, 19, 19);
+}
+/* Hero sections starts Here */
+ .bg-text{
+    position: absolute;
+    font-size: 230px;
+    top:25px;
+    color: rgb(32, 32, 32);
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+/* Home Product All Description */
+#prd-alldsrp{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+ }
+.prd{
+    font-size: 30px;
+    margin:160px 0px 0px 130px;
+}
+.prd-dsrp{
+    font-size: 60px;
+    margin:10px 0px 40px 130px;
+}
+.price{
+    margin:60px 0px 0px 140px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+/* Shop now button */
+.shop{
+    margin:30px 0px 0px 130px;
+    background-color: rgb(194, 2, 2);
+    border: none;
+    padding: 15px 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.shop:hover{
+    background-color: rgb(237, 7, 7);
+}
+/* Home image Boat 131 Airdops */
+.B131I{
+    width: 550px;
+    position: absolute;
+    top: 90px;
+    left:820px;
+}
+/* Three dots in home page */
+.dot-container{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+}
+.dot{
+    width:10px; height:10px;
+    border-radius:50%;
+    background-color:grey;
+}
+.dot.active{
+    background-color:red;
+}
+/* Feature Products section starts Here*/
+.fpd{
+    color: grey;
+    margin: 90px 0px 0px 0px;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#parent{
+    display: flex;
+}
+/* First Product styles */
+.product1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    width: 180px;
+    margin: 100px 0px ;
+}
+.prd-img1{   
+    width: 100%;
+    margin-bottom: 20px;
+}
+.product-title1{
+    font-size: 15px;
+    margin: 10px 0px 20px;
+    font-weight: bold;
+    color:  #888;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price1{
+    font-size: 20px;
+    color:  #888;
+}
+.orginalprice1{
+   font-size: 18px;
+   color: #888;
+   margin-left: 5px;
+   text-decoration: line-through;
+}
+/* Second Product */
+.product2{
+    margin:90px 0px 0px 70px;
+    text-align: center;
+    padding: 15px;
+    width: 250px;
+}
+.prd-img2{
+    width: 100%;
+    margin:20px 0px 20px;
+}
+.product-title2{
+    font-size: 20px;
+    font-weight: bold;
+    color:  #888;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price2{
+    font-size: 23px;
+    color:  #888;
+}
+.orginalprice2{
+   font-size: 20px;
+   color: #888;
+   margin-left: 5px;
+   text-decoration: line-through;
+}
+/* Third Product */
+.product3{
+    margin:55px 0px 0px 20px;
+    text-align: center;
+    padding: 15px;
+    width: 350px;
+}
+.prd-img3{
+    width: 100%;
+    margin:20px 0px 20px;
+}
+.product-title3{
+    font-size: 20px;
+    font-weight: bold;
+    color:  #888;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price3{
+    font-size: 23px;
+    color:  #888;
+}
+.orginalprice3{
+   font-size: 20px;
+   color: #888;
+   margin-left: 5px;
+   text-decoration: line-through;
+}
+
+/* Fourth Product */
+.product4{
+    text-align: center;
+    margin:90px 0px 0px 70px;
+    padding: 15px;
+    width: 250px;
+}
+.prd-img4{
+    width: 100%;
+    margin:20px 0px 20px;
+}
+.product-title4{
+    font-size: 20px;
+    font-weight: bold;
+    color:  #888;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price4{
+    font-size: 23px;
+    color:  #888;
+}
+.orginalprice4{
+   font-size: 20px;
+   color: #888;
+   margin-left: 5px;
+   text-decoration: line-through;
+}
+.product5{
+    text-align: center;
+    margin: 100px 0px;
+    padding: 15px;
+    width: 180px;
+}
+.prd-img5{   
+    width: 100%;
+    margin-bottom: 20px;
+}
+.product-title5{
+    font-size: 15px;
+    margin: 10px 0px 20px;
+    font-weight: bold;
+    color:  #888;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price5{
+    font-size: 20px;
+    color:  #888;
+}
+.orginalprice5{
+   font-size: 18px;
+   color: #888;
+   margin-left: 5px;
+   text-decoration: line-through;
+}
+.loading-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot{
+    margin:120px 3px;
+}
+/* Top Products Starts Here */
+.topp{
+    align-content: center;
+    margin: 50px 0px;
+    color: #888;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap:130px;
+}
+.item{
+  color: #888;
+}
+.item1{
+    background-color: red;
+    color: white;
+    padding:10px 20px;
+    border-radius: 5px;
+}
+.item:hover{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}

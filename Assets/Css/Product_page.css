@@ -1,0 +1,125 @@
+/* Shop Now Full deatil Styles */
+.product-container{
+    display: grid;
+    grid-template-columns: 10% 45% 45%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product-container .product-images figure img{
+     width: 120px;
+     border: 2px solid rgb(48, 47, 47);
+     margin: 10px 0px;
+}
+.product-container .product-images .first-img{
+    border: 2px solid rgb(219, 213, 213);
+}
+.headphone img{
+    width: 700px;height: 600px;
+    padding-top: 20px;
+}
+.prd-Dscrp{
+    color: grey;
+}
+.prd-Dscrp h2{
+   font-size: 30px;
+}
+.bars{
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin:30px 0px;
+    background-color: rgb(71, 69, 69);
+} 
+.prd-Dscrp .price2 {
+    font-size: 30px;
+    margin: 20px 0;
+} 
+.prd-Dscrp .price2 span {
+    text-decoration: line-through;
+    font-size: 25px;
+    margin-left: 8px;
+}
+.prd-Dscrp .save{
+   color:#008000;
+   font-size: 15px;
+
+}
+.prd-Dscrp .Stock-btn{
+    position: absolute;
+    top:300px;
+    left:1130px;
+    padding: 10px 30px;
+    background-color: #008000;
+    border: none;
+    margin: 0px 0px 200px 200px;
+    color: white;
+}
+.prd-Dscrp .offers{
+    display: flex;
+    column-gap: 20px;
+}
+.prd-Dscrp .offers p{
+    font-size: 15px;
+    border: 2px solid grey;
+    width: 180px; 
+    padding: 8px;
+    border-radius: 4px;
+}
+#cart-btn2{
+    background: #f00;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    padding: 15px 90px;
+    border-radius: 4px;
+    
+}
+/* Product Specification With Details Styles */
+.Prd_details{
+    display:flex;
+    margin: 80px 0px 0px 350px;
+    
+}
+.Prd_details h2{
+    color: grey;
+    margin-right: 160px;
+}
+.Prd_details .action{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+.Specification{
+    display: flex;
+    color: grey;
+    font-size: 20px;
+    margin-left: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Specification .Details{
+    margin-left: 165px;
+    text-align: right;
+    font-weight: bold;
+}
+.Prd_details .over{
+    padding-top: 10px;
+}
+.Prd_details .over:hover{
+    background-color: #f00;
+    color:white;
+    border-radius: 5px;
+}
+/* Related Product Styles Starts Here */
+.RelatedHead h2{
+    color: grey;
+    text-align: center;
+    font-size: 30px;
+    margin: 130px 0px 40px;
+}
+.Head-container{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    color: grey;
+    gap:10px;
+}
+/* Other Related Product Styles Comes from Product.css */

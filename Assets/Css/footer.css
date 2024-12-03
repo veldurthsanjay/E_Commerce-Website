@@ -1,0 +1,59 @@
+/* Footer Styles */
+.main-footer{
+    display:grid;
+    grid-template-columns: 34% 22% 22% 22%;
+    margin: 150px 0px 0px 0px;
+    color: grey;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section{
+    /* border: 3px solid red; */
+    padding-left: 5px;
+}
+input{
+padding: 15px 80px;
+background-color: black;
+border: 1px solid grey;
+border-radius: 3px;
+font-size: 15px;
+}
+.section .sub-btn{
+    background: #f00;
+    color: #fff;
+    border: none;
+    margin-top: 15px;
+    padding:15px 55px;
+    border-radius: 5px;
+}
+
+.section2 h4{
+    font-size: 20px;
+}
+.section2 ul{
+    padding: 1px;
+}
+.section2 ul li {
+    margin-top: 20px;
+}
+.section2 ul li a:hover{
+   color:white;
+}
+.line{
+    display: block;
+    width: 1510px;
+    height: 1px;
+    background-color: rgb(51, 49, 49);
+}
+.end-foot{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: black;
+    color: rgb(201, 197, 197);
+    padding: 20px;
+    
+}
+.social-icons{
+    font-size: 25px;
+    padding-left: 50px;
+}

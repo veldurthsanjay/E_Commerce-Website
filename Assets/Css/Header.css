@@ -1,0 +1,115 @@
+/* Header Starts Here */
+.logo{
+    margin-left: 40px;
+    font-size: 30px;
+    cursor: pointer;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: rgb(196, 190, 190);
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    top:3px;
+    z-index:100;
+}
+ /* Applying styles navigation */
+nav{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 570px;
+    cursor: pointer;
+}
+i{
+    padding-left: 40px;
+}
+/* search Icon styles */
+#search{
+    position: relative;
+}
+#search:hover::after{
+    color:white;
+    content: "Search";
+    position: absolute;
+    top: 30px;
+    left:15px;
+    width: 70px; height: 23px;
+    text-align: center;
+    align-content: center;
+    border: 2px solid grey;
+    border-radius: 4px;
+    background-color:rgb(27, 27, 27);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+ /* cart icon styles */
+#cart{
+    position: relative;
+}
+#cart:hover::after{
+    color:white;
+    content: "Cart";
+    position: absolute;
+    top: 30px;
+    left:25px;
+    width: 50px; height: 23px;
+    text-align: center;
+    align-content: center;
+    border: 2px solid grey;
+    border-radius: 4px;
+    background-color:rgb(27, 27, 27);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+#addtocart{
+    color: white;
+    background-color:red;
+    position: fixed;
+     top:15px;
+    left:1440px;
+    border-radius: 50%;
+    width: 20px; height:20px;
+    text-align: center;
+
+}
+/* user Icon styles */
+#user-icon{
+    position: relative;
+}
+.user-dropdown{
+    display: none;
+    position: absolute;
+    top:30px;
+    right: -10px;
+    width: 240px;
+    border: 2px solid grey;
+    border-radius:2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(170, 166, 166);
+    padding-left: 30px;
+
+}
+#user-icon:hover .user-dropdown{
+    display:block;
+}
+.user-dropdown .signup{
+    padding: 12px;
+    background-color:rgb(27, 27, 27);
+    border: 2px solid rgb(170, 166, 166);
+    border-radius: 4px;
+    text-align: center;
+    align-content: center;
+}
+a{
+    color:rgb(170, 166, 166); 
+    text-decoration: none;
+    
+}
+hr{
+    width: 230px;
+    margin: 20px 45px 8px 0px;
+    
+}
+.login{
+    margin-bottom: 8px;
+}

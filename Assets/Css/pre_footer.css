@@ -1,0 +1,47 @@
+/* Pre-footer styles (Our Advantages) */
+.advantages{
+    display:inline;
+}
+.advantages .advhead{
+    align-content: center;
+    color: #888;
+    padding:100px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .feature-item i {
+    font-size: 30px;
+    color:red;
+    padding-right: 30px;
+  }
+  
+.feature-item .Delivery{
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+}
+  .feature-item h3 {
+    font-size: 20px;
+    color: grey;
+  }
+  
+  .feature-item p {
+    font-size: 15px;
+    color: grey;
+  }
+  /* Go to Top Button */
+  .gotop{
+    color:white;
+    font-size: 40px;
+    padding: 0px 5px;
+    background-color: red;
+    position: sticky;
+    top:300px;
+    left:1480px;
+  }

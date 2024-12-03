@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="/Assets/Css/Header.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/Assets/Css/Cart.css">
+    <link rel="stylesheet" href="/Assets/Css/Products.css">
+    <link rel="stylesheet" href="/Assets/Css/pre_footer.css">
+    <link rel="stylesheet" href="/Assets/Css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+  <h2 class="logo">Tech-Shop</h2>
+  <nav>
+  <div id="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+  <div id="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+  <div id="user-icon"><i class="fa-regular fa-user" id="user"></i>
+   <div class="user-dropdown">
+    <p class>Hello!</p>
+    <p class>Acess account and manage orders</p>
+   <button class="signup"><a href="/Templates/Registration.html">Login / Signup</a></button>
+   <hr>
+   <div class="login"><a href="#">Please Login</a></div>
+   </div>
+  </div>
+  </nav>
+  </header>
+  <div><span id="addtocart">4</span></div>
+  <!-- Checkout page Starts Here -->
+  <div class="main-main-container">
+  <div class="main-grid">
+  <div class="first-prd">
+  <div><img src="/images/products/jbl660nc-1.png" alt=""></div>
+  <div id="first-prd">
+    <h3>JBL Live 660NC Wireless Over-Ear NC<i class="fa-regular fa-trash-can"></i><br>Headphones</h3>
+    <p class="price5">₹9,999 <span>₹14,999</span></p>
+    <div class="addsub">
+      <i class="fa-solid fa-minus"></i>
+      <i class="fa-solid fa-1" id="no-of"></i>
+      <i class="fa-solid fa-plus"></i>
+  </div>
+</div>
+ </div>
+ <!-- <span class="bars"></span> -->
+ <div class="first-prd">
+    <div><img src="/images/products/boat518-1.png" alt="boat518-1"></div>
+    <div id="first-prd">
+    <h3>boAt Rockerz 519 On-Ear Wireless<i class="fa-regular fa-trash-can"></i><br>Headphones</h3>
+    <p class="price5">₹1,299 <span>₹3,990</span></p>
+    <div class="addsub">
+      <i class="fa-solid fa-minus"></i>
+      <i class="fa-solid fa-1" id="no-of"></i>
+      <i class="fa-solid fa-plus"></i>
+  </div>
+</div>
+ </div>
+ <!-- <span class="bars"></span> -->
+ <div class="first-prd">
+   <div><img src="/images/products/boat131-1.png" alt=""></div>
+   <div id="first-prd">
+    <h3>boAt Airdropes 131 Wireless In-Ear<i class="fa-regular fa-trash-can"></i><br>Earbuds</h3>
+    <p class="price5">₹1,099 <span>₹2,990</span></p>
+    <div class="addsub">
+      <i class="fa-solid fa-minus"></i>
+      <i class="fa-solid fa-1" id="no-of"></i>
+      <i class="fa-solid fa-plus"></i>
+  </div>
+</div>
+</div>
+<div class="first-prd">
+  <div><img src="/images/products/boat110-1.png" alt=""></div>
+  <div id="first-prd">
+    <h3>boAt BassHeads 110 in-Ear Wired<i class="fa-regular fa-trash-can"></i><br>Earphones</h3> 
+   <p class="price5">₹449 <span>₹999</span></p>
+   <div class="addsub">
+     <i class="fa-solid fa-minus"></i>
+     <i class="fa-solid fa-1" id="no-of"></i>
+     <i class="fa-solid fa-plus"></i>
+ </div>
+</div>
+</div>
+
+<!-- <span class="bars"></span> -->
+</div>
+<div class="checkout">
+<h2>Order Summary( 4 items)</h2>
+<div class="Specification">
+  <div>
+    <p>Orginal Price</p>
+    <p>Discount<p>
+    <p>Delivery</p>
+  </div>
+  <div class="Details">
+    <p>22,978</p>
+    <p class="discount">-10,132</p>
+    <p class="discount">Free</p>
+  </div>
+ </div>
+ <span class="bars"></span>
+ <div class="cart-info">
+ <h2>Total Price</h2>
+ <h2>12,846</h2>
+ </div>
+ <button id="cart-btn"><a href="">Checkout</a></button>
+</div>
+</div>
+</div>
+  <!-- Footer Starts Here -->
+    <div class="main-footer">
+  <div class="section">
+    <h2>Tech-Shop</h2>
+    <p>Subscribe to our Email alerts to recieve <br>early discount offers,and new products <br>info.</p>
+    <input type="email" placeholder="Email Address*"><br>
+    <button class="sub-btn">Subscribe</button>
+  </div>
+  <div class="section2">
+    <h4>Help</h4>
+    <ul type="none">
+<li><a href="">FAQ</a></li>
+<li>Track Order</li>
+<li>Cancel Order</li>
+<li>Return Order</li>
+<li>Warranty Info</li>
+    </ul>
+  
+  </div>
+  <div class="section2">
+    <h4>Polics</h4>
+    <ul type="none">
+<li>Return Policy</li>
+<li>Security</li>
+<li>Sitemap</li>
+<li>Privacy Policy</li>
+<li>Terms & Conditions</li>
+    </ul>
+  </div>
+  <div class="section2">
+    <h4>Company</h4>
+    <ul type="none">
+<li>About Us</li>
+<li>Contact Us</li>
+<li>Service Centres</li>
+<li>Careers</li>
+<li>Affiliates</li>
+    </ul>
+  </div>     
+   <span class="line"></span>
+</div>
+<div class="end-foot">
+    <span>2024 | All Rights Reserved.Built by | SANJAY VELDURTHI</span>
+    <div>
+    <div class="social-icons">
+    <a href="https://www.facebook.com/profile.php?id=100015546152342&mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+    <a href="https://www.instagram.com/sanjay_saahu_14?igsh=MW90ZHBlbW4yMXc1ZQ=="><i class='bx bxl-instagram'></i></a>
+    <a href="https://github.com/veldurthsanjay"><i class='bx bxl-github'></i></a>
+    <a href="https://www.linkedin.com/in/veldurthisanjay123"><i class='bx bxl-linkedin' ></i></a>
+    <a href="https://www.behance.net/veldurthisanjay"><i class='bx bxl-behance' ></i></a>
+  </div>
+      </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+body{
+    background-image: url("/images/sign-bg.png");
+    background-size: 100%;
+}
+/* form start here */
+form{
+width: 370px;
+background-color:rgb(27, 27, 27);
+padding:30px 0px 30px 10px;
+margin: 80px 0px 0px 600px;
+
+}
+/* signIn heading */
+legend{
+color: rgb(190, 180, 180);
+font-size: 20px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 25px;
+
+}
+/* Input fields */
+.label{
+background-color:rgba(28, 27, 27, 0.75);
+padding: 10px;
+border: 1px solid rgb(190, 180, 180);
+border-radius: 4px;
+width: 280px;
+font-weight: bold;
+color: antiquewhite;
+margin:10px 10px 10px 25px;
+}
+#btn1{
+    background-color: rgb(193, 3, 3);
+    width: 308px; height: 40px;
+    color: white;
+    border: 1px solid rgb(193, 3, 3);
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 20px 0px 0px 25px;
+    cursor: pointer;
+}
+p{
+    color: rgb(190, 180, 180);  
+    padding-left: 25px; 
+}
+span{
+    color: white;
+    cursor: pointer;
+}
+.loginline{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    margin: 10px  35px ;
+}
+.loginline span{
+    flex:1;
+    height: 1px;
+    background-color: rgb(81, 75, 75);
+}
+.orlogin{
+  padding-right: 30px;
+} 
+.Fb{
+    margin: 0px 0px 0px 25px;
+    background-color: #316FF6;
+    border: 0px solid #316FF6;
+    width: 85px; height: 40px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.Gogle{
+margin: 25px 0px 0px 9px;
+background-color: #c01c0e;
+border: 0px solid #a81507;
+width: 100px; height: 40px;
+color: white;
+font-size: 15px;
+cursor: pointer;
+}
+.twit{
+    margin: 25px 0px 0px 9px;
+    background-color: #1DA1F2;
+    border: 0px solid #1DA1F2;
+    width: 100px; height: 40px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.section h4{
+    text-align: center;
+}
+#exit{
+    position:absolute;
+    top:80px;
+    background-color: black;
+    padding: 5px 10px;
+    font-size: 30px;
+    left:950px;
+}
